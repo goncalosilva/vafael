@@ -33,7 +33,7 @@ class Valu_FacetWP_ElasticPress_Integration {
 		include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 
 		// Check that dependencies are installed and activated
-		if ( is_plugin_active( 'ElasticPress/elasticpress.php' ) AND is_plugin_active( 'facetwp/index.php' ) ) {
+		if ( is_plugin_active( 'elasticpress/elasticpress.php' ) AND is_plugin_active( 'facetwp/index.php' ) ) {
 
 			if ( null == self::$instance ) {
 				self::$instance = new self;
